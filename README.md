@@ -68,5 +68,44 @@
 + Now go to ***index.html*** add this line ```<link rel="stylesheet" type="text/css" href="css/styles.css">``` code  in the head
 
 + Finally, now we can see ***hello world*** with color blue in the browser 
-    
+
+**CSS Selector**
+
+![selector](https://user-images.githubusercontent.com/69158314/111882106-01aa7900-89b4-11eb-843c-fdcdac42e56d.jpg)
+
+For example :
+
+```
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    }
+```
+**Colors In CSS**
+
+**Color Names and HTML Color names**
+```
+body{
+      color: red;
+      background: coral;
+    }
+```
+**Hexadecimal**
+```
+h1{
+    color: #00ff00;
+  }
+```
+**RGB**
+```
+p{
+   color:rgb(0, 0, 255) ;
+ }
+```
+
+
+
+
+
+
 
