@@ -23,3 +23,26 @@
     + TextMate (Mac)
 
 **Getting Started with Downland Visual Studio Code**
+## let's started
+
++ Firstly, create New folder  ***"CSS Training "***
+
++ Secondly, in this folder Create New Document  ***"New Text Document.txt"***  And rename this document to ***index.html***
+
++ Thirdly, right click on the file ***index.html***  and select ***"Open with Code"***  the visual studio code will get open.
+
++ After that, Type ```<h1>hello world</h1>```in visual studio code and save this with ***Ctrl+S***
+
++ Finally, double click on the ***index.html***, now we can see ***hello world*** in the browser 
+
+**3 methods For Adding CSS**
+
+ + **Inline CSS:** Directly in the html element(NO!)
+ + **Internal CSS:** Using <style tags within a single document
+ + **External CSS:** Linking an external .css file
+
+
+
+
+
+
