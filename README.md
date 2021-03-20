@@ -38,11 +38,35 @@
 **3 methods For Adding CSS**
 
  + **Inline CSS:** Directly in the html element(NO!)
- + **Internal CSS:** Using <style tags within a single document
+ + **Internal CSS:** Using <style> tags within a single document
  + **External CSS:** Linking an external .css file
+ 
+ **Inline CSS:**
+  ```
+  <h1 style="color:red" >Hello World</h1>
+  ```
+  **Internal CSS:**
+  
+  add this code in the head
+  ```
+  <style type="text/css">
+        h1{
+            color: blue;
+        }
+  </style>
+  ```
+**External CSS:**
 
++ Firstly, in the same folder ***"CSS Training "*** create New folder  ***"CSS"***
 
++ Secondly, in this folder Create New Document  ***"New Text Document.txt"***  And rename this document to ***styles.css***
 
++ Thirdly, right click on the file ***styles.css***  and select ***"Open with Code"***  the visual studio code will get open.
 
++ After that, Type ```h1{ color: blue;}``` in visual studio code and save this with ***Ctrl+S***
 
++ Now go to ***index.html*** add this line ```<link rel="stylesheet" type="text/css" href="css/styles.css">``` code  in the head
+
++ Finally, now we can see ***hello world*** with color blue in the browser 
+    
 
