@@ -1,4 +1,4 @@
-# CSS-Training-Course
+#CSS-Training-Course
 
 ***What is CSS?***
   + **cascading Stylesheets**
@@ -35,7 +35,7 @@
 
 + Finally, double click on the ***index.html***, now we can see ***hello world*** in the browser 
 
-***3 methods For Adding CSS***
+## 3 methods For Adding CSS
 
  + **Inline CSS:** Directly in the html element(NO!)
  + **Internal CSS:** Using <style> tags within a single document
@@ -69,7 +69,7 @@
 
 + Finally, now we can see ***hello world*** with color blue in the browser 
 
-***CSS Selector***
+## CSS Selector
 
 ![selector](https://user-images.githubusercontent.com/69158314/111882106-01aa7900-89b4-11eb-843c-fdcdac42e56d.jpg)
 
@@ -81,7 +81,7 @@ body{
     color: #555555;
     }
 ```
-***Colors In CSS***
+## Colors In CSS
 
 **Color Names and HTML Color names**
 ```
