@@ -175,7 +175,7 @@ body{
     margin: 20px 0;
 }
 ```
-## Style of Titre:hello world
+## Style of Titre: Hello World
 ```
 .box-1 h1{
     font-family: Tahoma;
@@ -187,4 +187,33 @@ body{
     word-spacing: 1em;
 }
 ```
+## add box-2 in Html
+```
+<div class="container">
+    <div class="box-1">
+        <h1>Hello World</h1>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio sed aut eaque quis laudantium laborum natus, neque tenetur amet. Non saepe eius minus blanditiis, enim nesciunt. Possimus, consectetur rerum.
+        </p>
+    </div>
+    <div class="box-2">
+        <h1>Goodbye Team</h1>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio sed aut eaque quis laudantium laborum natus, neque tenetur amet. Non saepe eius minus blanditiis, enim nesciunt. Possimus, consectetur rerum.
+        </p>
+    </div>
+</div>
+```
+## Style of box2
+```
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+      }
+```
+
+
+
+
 
