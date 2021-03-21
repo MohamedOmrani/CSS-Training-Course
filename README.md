@@ -81,7 +81,7 @@ body{
     color: #555555;
     }
 ```
-## Colors In CSS
+## Box Modle Colors In CSS
 
 **Color Names and HTML Color names**
 ```
@@ -102,8 +102,40 @@ p{
    color:rgb(0, 0, 255) ;
  }
 ```
+**html**
+```
+ <div class="container">
+      <div class="box-1">
+          <h1>Hello World</h1>
+          <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio sed aut eaque quis laudantium laborum natus, neque tenetur amet. Non saepe eius minus blanditiis, enim nesciunt. Possimus, consectetur rerum.
+          </p>
+      </div>
+  </div>
+```
+**css**
+```
+body{
+    background-color: #f4f4f4;
+    color: #555555;
 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* same as above */
+    /* font: normal 18px Arial, Helvetica, sans-serif; */
 
+    line-height: 1.6em;
+    
+} 
+
+.container{
+    width: 80%;
+    /* width: 490px; */
+    margin: auto;
+}
+```
+## CSS Box Modle
 
 
 
