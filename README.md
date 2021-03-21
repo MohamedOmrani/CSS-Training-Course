@@ -490,6 +490,173 @@ body{
   }
 }
 ```
+**All Code HTML**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Training Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>My Web site</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+       </div>  
+    </nav>
+    
+    <section id="showcase">
+        <div class="container">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="main">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, repellat molestias aspernatur architecto dignissimos repellendus esse eius? Fugit placeat facere, enim sit aspernatur distinctio dolorem vero quaerat, accusamus soluta perspiciatis.</p>
+        </section>
+
+        <aside id="sidebar">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, repellat molestias aspernatur architecto dignissimos repellendus esse eius? Fugit placeat facere, enim sit aspernatur distinctio dolorem vero quaerat, accusamus soluta perspiciatis.</p>
+        </aside>
+    </div>
+
+    <footer id="main-footer">
+        <p>Copyright &copy;2021 My Website</p>
+    </footer>
+</body>
+</html>
+```
+**All Style CSS**
+```
+body{
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin:0;
+}
+
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+/* start header */
+#main-header{
+  background-color: rgb(100, 155, 180);
+  color: #fff;
+}
+/* end header */
+
+
+/* start navbar */
+#navbar{
+  background-color: #333;
+  color: #fff;
+}
+
+#navbar ul{
+ padding: 0;
+ list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 16px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #3e3bcfce;
+  color: white;
+}
+/* end navbar */
+
+/* start showcase */
+#showcase{
+  background-image: url('image.jpg');
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+/* end showcase */
+
+/* start main */
+#main{
+  float: left;
+  width: 70%;
+  padding:0 30px;
+  box-sizing: border-box;
+}
+/* end main */
+
+/* start sidebar */
+#sidebar{
+  float: right;
+  width: 30%;
+  background:#333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* end sidebar */
+
+/* start footer */
+#main-footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+/* end footer */
+
+
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
+```
 
 ![demo](https://user-images.githubusercontent.com/69158314/111908653-4daff900-8a5a-11eb-9878-52484683167a.png)
 
