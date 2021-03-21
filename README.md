@@ -259,5 +259,64 @@ a:active{
     color:green
 }
 ```
+## add class form in Html
+```
+<form class="my-form">
+  <div class="form-group">
+       <label>First Name:</label>
+       <input type="text" name="firstName">
+  </div> 
+  <div class="form-group">
+       <label>Last Name:</label>
+       <input type="text" name="lastName">
+  </div> 
+  <div class="form-group">
+       <label>Email:</label>
+       <input type="text" name="email"> 
+  </div> 
+  <div class="form-group">
+      <label>Message:</label>
+      <textarea name="message"></textarea>
+  </div>
+  <input class="button" type="submit" value="Submit">
+</form>
+```
+## Style of class form
+```
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background:red;
+}
+```
+
+
+
+
+
+
+
 
 
