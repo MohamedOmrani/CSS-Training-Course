@@ -126,20 +126,55 @@ body{
     /* font: normal 18px Arial, Helvetica, sans-serif; */
 
     line-height: 1.6em;
+    margin: 0;
     
-} 
+    } 
 
 .container{
     width: 80%;
     /* width: 490px; */
     margin: auto;
-}
+          }
+.box-1{
+    background-color: #333;
+    color:#fff;
+      }
 ```
 ## CSS Box Modle
 
 ![css_box_model](https://user-images.githubusercontent.com/69158314/111900912-69ed6f00-8a35-11eb-83a8-e627edac7610.png)
 
+## Margin Padding Border
+```
+.box-1{
+    background-color: #333;
+    color:#fff;
 
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    border: 5px red solid;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* same as above */
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    /* same as above */
+    margin: 20px 0;
+}
+```
 
 
 
