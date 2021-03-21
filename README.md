@@ -424,7 +424,7 @@ body{
 }
 /* end showcase */
 ```
-**main and sidebar **
+**main and sidebar**
 ```
 <div class="container">
   <section id="main">
@@ -459,13 +459,36 @@ body{
 }
 /* end sidebar */
 ```
-
-
-
-
-
-
-
-
+**footer**
+```
+<footer id="main-footer">
+    <p>Copyright &copy;2021 My Website</p>
+</footer>
+```
+**Style of footer**
+```
+/* start footer */
+#main-footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+/* end footer */
+```
+**Responsive**
+```
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
+```
 
 
