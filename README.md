@@ -137,6 +137,8 @@ body{
 ```
 ## CSS Box Modle
 
+![css_box_model](https://user-images.githubusercontent.com/69158314/111900912-69ed6f00-8a35-11eb-83a8-e627edac7610.png)
+
 
 
 
