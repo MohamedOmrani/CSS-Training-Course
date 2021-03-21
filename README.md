@@ -437,7 +437,7 @@ body{
   </aside>
 </div>
 ```
-**Style of main and sidebar **
+**Style of main and sidebar**
 ```
 /* start main */
 #main{
