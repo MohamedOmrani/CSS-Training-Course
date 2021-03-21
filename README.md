@@ -175,6 +175,16 @@ body{
     margin: 20px 0;
 }
 ```
-
-
+## Style of Titre:hello world
+```
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight:800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+```
 
