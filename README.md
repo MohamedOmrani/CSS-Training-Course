@@ -187,7 +187,7 @@ body{
     word-spacing: 1em;
 }
 ```
-## add box-2 in Html
+## add class box-2 in Html
 ```
 <div class="container">
     <div class="box-1">
@@ -212,8 +212,52 @@ body{
     margin: 20px 0;
       }
 ```
+## add class categories in Html
+```
+<div class="categories">
+    <h2>Categories</h2>
+    <ul>
+        <li><a href="#">Category 1</a></li>
+        <li><a href="#">Category 2</a></li>
+        <li><a href="#">Category 3</a></li>
+        <li><a href="#">Category 4</a></li>
+    </ul>
+</div>
+```
+## Style of class categories
+```
+.categories{
+    border:1px #ccc solid;
+    padding: 10px;
+    border-radius:15px;
+}
 
+.categories h2{
+    text-align: center;
+}
 
+.categories ul{
+    padding: 0;
+    list-style:square;
+    list-style: none;
+}
 
+.categories li{
+    padding-bottom: 6px;
+    border-bottom:dotted 1px #333;
+  
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green
+}
+```
 
 
